@@ -25,15 +25,16 @@ ul{
     padding: 8px 10px;
     border: none;
     cursor: pointer;
+    border-radius: 3px;
 }
 
 /* TITLE & TAGS */
-
 .main-title {
     text-align: center;
     font-size: 4rem;
     width: 85%;
     font-weight: 700;
+    color: #171717;
 }
 
 .usps {
@@ -44,15 +45,142 @@ ul{
 
 
 /* PRICING TABLES */
+
 .pricing-tables {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 2rem 5rem;
     gap: 1rem;
 }
 
+/* PRICING TABLES || STARTUP */
+
+.title__startup {
+    font-size: 1.5rem;
+    color: #171717;
+    font-weight: 700;
+}
+
+.price__startup {
+    font-size: 4rem;
+    color: #171717;
+    font-weight: 800;
+}
+
+.conditions__startup {
+    font-size: 0.875rem;
+    color: #747474;
+    font-weight: 500;
+}
+
+.pricing-tables__startup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;        
+    text-align: center;         
+    border: 1px solid #DBDBDB;
+    padding: 2.25rem;
+}
+
+.features__startup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+
+
+/* PRICING TABLES || BUSINESS */
+
+.title__business {
+    font-size: 1.5rem;
+    color: #fafafa;
+    font-weight: 700;
+}
+
+.price__business {
+    font-size: 4rem;
+    color: #fafafa;
+    font-weight: 800;
+}
+
+.conditions__business {
+    font-size: 0.875rem;
+    color: #DDDDDD;
+    font-weight: 500;
+}
+
+.pricing-tables__business {
+    display: flex;
+    flex-direction: column;
+    align-items: center;        
+    text-align: center;         
+    border: 1px solid #DBDBDB;
+    padding: 2.25rem;
+    background-color: #2C3140;
+}
+
+.features__business {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #DDDDDD;   
+}
+
+
+/* PRICING TABLES || AGENCY */
+
+.title__agency {
+    font-size: 1.5rem;
+    color: #171717;
+    font-weight: 700;
+}
+
+.price__agency {
+    font-size: 4rem;
+    color: #171717;
+    font-weight: 800;
+}
+
+.conditions__agency {
+    font-size: 0.875rem;
+    color: #747474;
+    font-weight: 500;
+}
+
+.pricing-tables__agency {
+    display: flex;
+    flex-direction: column;
+    align-items: center;        
+    text-align: center;         
+    border: 1px solid #DBDBDB;
+    padding: 2.25rem;
+}
+
+.features__agency {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
 
 /* PRICING TABLES BUTTONS */
 .white-button {
-    
+    background-color: #fafafa;
+    color: #1465FA;
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding: 18px 38px;
+    border: 3px solid #1465FA;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.blue-button {
+    background-color: #1465FA;
+    color: #fafafa;
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding: 18px 38px;
+    cursor: pointer;
+    border: none;
 }
