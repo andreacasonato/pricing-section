@@ -6,8 +6,7 @@
 }
 
 /* HEADER MENU */
-
-.header__navigation {
+.header-navigation {
     display: flex;
     justify-content: space-between;
     padding: 2rem 5rem;
@@ -20,4 +19,40 @@ ul{
     gap: 1rem;
 }
 
-/* MAIN */
+.sign-up__button {
+    background-color: #1465FA;
+    color: #fafafa;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* TITLE & TAGS */
+
+.main-title {
+    text-align: center;
+    font-size: 4rem;
+    width: 85%;
+    font-weight: 700;
+}
+
+.usps {
+    align-items: center;
+    padding: 2rem 5rem;
+    gap: 2rem;
+}
+
+
+/* PRICING TABLES */
+.pricing-tables {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    gap: 1rem;
+}
+
+
+/* PRICING TABLES BUTTONS */
+.white-button {
+    
+}
