@@ -12,11 +12,18 @@
     padding: 2rem 5rem;
 }
 
-ul{
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+ul {
     display: flex; 
     list-style: none;
     text-decoration: none;
     gap: 1rem;
+    text-decoration: none;
 }
 
 .sign-up__button {
@@ -29,7 +36,9 @@ ul{
 }
 
 /* TITLE & TAGS */
+
 .main-title {
+    margin: 2rem auto;
     text-align: center;
     font-size: 4rem;
     width: 85%;
@@ -38,13 +47,24 @@ ul{
 }
 
 .usps {
-    align-items: center;
+    margin: 0 auto;
+    text-align: center;
     padding: 2rem 5rem;
-    gap: 2rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.check-icon {
+    margin-right: 0.5rem;
 }
 
 
 /* PRICING TABLES */
+
+hr {
+    width: 50%;
+}
 
 .pricing-tables {
     display: flex;
@@ -80,6 +100,8 @@ ul{
     text-align: center;         
     border: 1px solid #DBDBDB;
     padding: 2.25rem;
+    gap: 1.2rem;
+    box-shadow: 0px 4px 5px 1px rgba(193, 193, 193, 0.35);
 }
 
 .features__startup {
@@ -118,6 +140,8 @@ ul{
     border: 1px solid #DBDBDB;
     padding: 2.25rem;
     background-color: #2C3140;
+    gap: 1.2rem;
+    box-shadow: 0px 4px 5px 1px rgba(193, 193, 193, 0.35);
 }
 
 .features__business {
@@ -155,6 +179,8 @@ ul{
     text-align: center;         
     border: 1px solid #DBDBDB;
     padding: 2.25rem;
+    gap: 1.2rem;
+    box-shadow: 0px 4px 5px 1px rgba(193, 193, 193, 0.35);
 }
 
 .features__agency {
@@ -175,6 +201,10 @@ ul{
     border-radius: 3px;
 }
 
+.white-button:hover {
+    background-color: #f0f0f0;
+}
+
 .blue-button {
     background-color: #1465FA;
     color: #fafafa;
@@ -183,4 +213,9 @@ ul{
     padding: 18px 38px;
     cursor: pointer;
     border: none;
+}
+
+.blue-button:hover {
+    background-color: #0a53da;
+    transition: background-color 0.3s ease;
 }
