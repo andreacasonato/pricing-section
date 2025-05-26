@@ -15,15 +15,24 @@
 .header-menu {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
+    text-decoration: none;
 }
 
 ul {
     display: flex; 
     list-style: none;
+    gap: 2rem;
+}
+
+.header-menu__links li:hover a {
+    color: #3c7cf2;
+}
+
+a {
     text-decoration: none;
-    gap: 1rem;
-    text-decoration: none;
+    color: #171717;
+    
 }
 
 .sign-up__button {
@@ -33,6 +42,11 @@ ul {
     border: none;
     cursor: pointer;
     border-radius: 3px;
+}
+
+.sign-up__button:hover {
+    background-color: #0a53da;
+    transition: background-color 0.3s ease;
 }
 
 /* TITLE & TAGS */
