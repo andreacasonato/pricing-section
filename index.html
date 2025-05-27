@@ -11,22 +11,25 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="header-navigation">
-            <div>
-                <img src="Images/Social Piper.svg" alt="Logo">
-            </div>
-            <div class="header-menu">
-                <ul class="header-menu__links">
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Case Studies</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-                <button class="sign-up__button">Sign up</button>
-            </div>
-            </div>
-        </nav>
+        <div class="header-navigation">
+    <div class="logo">
+        <img src="Images/Social Piper.svg" alt="Logo">
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="header-menu" id="headerMenu">
+        <ul class="header-menu__links">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Case Studies</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        <button class="sign-up__button">Sign up</button>
+    </div>
+</div>
     </header>
     <main>
         <h1 class="main-title">Manage All Your Social Media Profiles From One Place.</h1>
@@ -80,5 +83,6 @@
             </div>
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
